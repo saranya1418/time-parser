@@ -95,8 +95,3 @@ console.log("Example 8:", parse("now()+1y").toISOString());
 
 console.log("Example 9:", parse("now()").toISOString());
 
-try {
-    console.log(parse("today()+1d"));
-} catch (err) {
-    console.log(err.message);
-}
